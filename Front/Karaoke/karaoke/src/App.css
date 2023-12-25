@@ -1,0 +1,17 @@
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.search label,
+.search input,
+.search button {
+  margin-right: 10px; 
+}
+
+
+
